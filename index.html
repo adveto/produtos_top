@@ -112,8 +112,8 @@
 
 			<p style="font-style: italic; font-size: 1.2rem;margin-bottom: 60px;color: white;"><span id="nga"></span> ganhadores em <span id="city"></span> na última semana, apenas recebendo nossos jogos prontos.</p> 
 
-			<div class="bt">
-				<a onclick="window.location.href = 'https://produtos-top.online/metodo/?' + location.search.slice(1)" style="text-decoration: none; color: black;" href="">CLIQUE AQUI PARA CONTINUAR</a>
+			<div class="bt" onclick="Abrir()">
+				CLIQUE AQUI PARA CONTINUAR
 			</div>
 			
 
@@ -145,7 +145,9 @@
       	}
       	
 
-
+      	function Abrir(){
+      		window.location.href = 'http://www.produtos-top.online/metodo/?' + location.search.slice(1);
+      	}
 
 
 
